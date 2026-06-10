@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Spring-AI
+  ai:
+    google:
+      genai:
+        api-key: ${API_KEY}
+logging:
+  level:
+    root: info
